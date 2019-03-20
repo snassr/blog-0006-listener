@@ -9,5 +9,7 @@ import (
 func Listener() {
 	if rand.Intn(3)%2 == 0 {
 		fmt.Println("Listening Happily 💃🕺")
+	} else {
+		fmt.Println("Listening, Not interested?...🤔")
 	}
 }
